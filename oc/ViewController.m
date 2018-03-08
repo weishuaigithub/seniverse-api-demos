@@ -23,7 +23,7 @@ static NSString *TIANQI_LIFE_SUGGESTION_URL = @"https://api.seniverse.com/v3/lif
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // 创建 session 对象
+    // 创建 session 对象  0101010010101
     NSURLSession *session = [NSURLSession sharedSession];
     NSString * nameStr  = @"济宁";//输入汉字 区别“集宁”，使用拼音则会造成混乱
     NSString *dataUTF8 = [nameStr stringByAddingPercentEncodingWithAllowedCharacters:(NSCharacterSet * )NSUTF8StringEncoding];
